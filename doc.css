@@ -1,0 +1,206 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    margin-left:25px;
+    margin-right: 25px;
+    color:black;
+}
+.head
+{
+text-align:center;
+margin-top: 11px;
+}
+.logo
+{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.logo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: block; /* removes extra space under img */
+  }
+.gmail
+  {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+  }
+.gmail img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      display: block; /* removes extra space under img */
+    }
+.phone
+{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.phone img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: block; /* removes extra space under img */
+  }
+  .b {
+    margin-right:7px;
+  }
+  .a {
+    margin-top:6px;
+  }
+  .education {
+    margin-top:3px;
+    margin-left:25px;
+    margin-right: 25px;
+  }
+  .education p {
+    margin-top: 2px;
+    font-size:14px;
+  }
+  .edu1 {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-top:3px;
+    font-size: 15px;
+  }
+  .edu1 p {
+    font-size: 12px;
+  }
+  .edu2 {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .edu2 h4 {
+    font-size: 12px;
+  }
+  .educ {
+     margin-top:10px;
+  }
+  .educa {
+    margin-top:10px;
+ }
+ .projects {
+    margin-top:5px;
+    margin-left:25px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .list {
+    margin-left:30px;
+    margin-right: 30px;
+    font-size:12px;
+  }
+ .pro {
+    margin-top:3px;
+ }
+ .pro ul {
+    margin-top:2px;
+ }
+  .project2, .project3 {
+    margin-top:10px;
+  }
+  .achievement {
+    margin-top:5px;
+    margin-left:25px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .achievement .list{
+    margin-top:3px;
+  }
+  .skills {
+    margin-top:5px;
+    margin-left:25px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .skills .list {
+    margin-top:3px;
+    margin-left:30px;
+    margin-right: 30px;
+    font-size:12px;
+  }
+  .skills ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0;
+}
+.skills li {
+    list-style-position: inside;
+    font-size:12px;
+}
+.Certifications {
+  margin-top:5px;
+  margin-left:25px;
+  margin-right: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.Certifications .list {
+  margin-top:3px;
+  margin-left:30px;
+  margin-right: 30px;
+  font-size:12px;
+}
+.extra {
+  margin-top:5px;
+  margin-left:25px;
+  margin-right: 25px;
+}
+.extra .list {
+  margin-top:3px;
+  margin-left:30px;
+  margin-right: 30px;
+  font-size:12px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+hr {
+  border: none;
+  border-top: 2px solid black;
+}
+ a{
+  text-decoration: none;
+  color:black;
+ }
+ .v {
+  display:flex;
+  gap:8px;
+ }
+ .v img{
+  width:10px;
+  height:10px;
+  color:black;
+ }
+ .score img {
+  width:10px;
+  height:10px;
+  color:black;
+  gap:8px;
+ }
+ @media print {
+  .popup-image {
+    display: block !important;
+  }
+}
